@@ -1,0 +1,91 @@
+.mini-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+    margin-top: 20px;
+    background-color: var(--color-white);
+   color: var(--color-dim-gray);
+    line-height: 24px;
+
+    .miniCard-container {
+            border-radius: 12px;
+            padding: 20px;
+            margin: 0 auto;
+
+            img{
+                width: 141px;
+            }
+
+            .discount-banner{
+                display: flex;
+                font-size: 13px;
+                gap: 5px;
+                
+
+                div{
+                    background-color: #F2F4F7;
+                    color: var(--color-dodger-blue);
+                    padding: 8px 10px;
+                    cursor: pointer;
+                    border-radius: 8px;
+                }
+
+                div:hover{
+                    color: var(--color-dark-cerulean);
+
+                }
+            }
+
+            .name{
+                font-weight: 700;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .priceInfo{
+                display: flex;
+                justify-content: flex-start;
+
+                .price{
+                    font-size: 20px;
+                    margin: 1px 5px;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: var(--color-charcoal);
+                    }
+                }
+
+                
+
+                .originalprice{
+                    font-size: 14px;
+                    margin: 1px 5px;
+                    color: #9FA9B3;
+                }
+
+                .price-discount{
+                    color: #EF4C5D;
+                    font-size: 13px;
+                    margin: 1px 5px;
+                }
+            }
+        }
+
+        button{
+            width: 100%;
+            padding: 10px 0;
+            border-radius: 12px;
+            background-color: var(--color-dodger-blue);
+            font-size: 16px;
+            color: var(--color-white);
+            border: none;
+            transition: transform 0.3s ease;
+
+            &:hover{
+                background-color: #1b88f4eb;
+                transform: scale(1.1);
+            }
+        }
+}
+

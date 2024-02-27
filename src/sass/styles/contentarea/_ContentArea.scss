@@ -1,0 +1,45 @@
+.content-area{
+    width: 80%;
+    margin: 9px auto;
+    align-items: center;
+
+    .title{
+        font-size: 48px;
+        line-height: 60px;
+        color: var(--color-dark-slate-blue);
+    }
+
+    hr{
+        border-top: 2px solid #E1E4E6;
+    }
+
+    @import "./TopMetaInfo";
+
+    @import "./Navmenu";
+
+    .flow{
+        color: var(--color-dark-slate-gray);
+        font-size: 13px;
+    }
+
+    @import "./Products";
+
+    .related{
+        margin-top: 10px;
+        font-size: 32px;
+        line-height: 44px;
+        color: var(--color-dark-slate-blue);
+    }
+
+    @import "./MiniProductCard";
+
+    @import "./SignupSection";
+
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+
+        .title{
+            font-size: 24px;
+        }
+        }
+}
