@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/web-canvas/static/css/main.a7e958ec.css",
+    "main.js": "/web-canvas/static/js/main.44968945.js",
+    "index.html": "/web-canvas/index.html",
+    "main.a7e958ec.css.map": "/web-canvas/static/css/main.a7e958ec.css.map",
+    "main.44968945.js.map": "/web-canvas/static/js/main.44968945.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7e958ec.css",
+    "static/js/main.44968945.js"
+  ]
+}
